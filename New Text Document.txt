@@ -1,0 +1,25 @@
+PROJECT PROPOSAL FORMAT:
+
+
+Title of the Project:
+Introduction:
+Objectives:
+Description of the Project:
+Environment/ Tools:
+Methodology:
+Input/ Output Description:
+Conclusion:
+
+You can add even more points if you need. Thank you
+
+
+
+
+Assignment-1
+Submission date: 30-10-2019 (Wednesday)
+
+Topic:          1. Goal-based agent
+	  2. Utility-based agent
+	*Description, diagram, agent program
+
+
