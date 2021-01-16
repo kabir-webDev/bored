@@ -20,9 +20,9 @@ function Product() {
   console.log(users);
   return (
     <div>
-      {users.map((person) => (
-        <h1>{person}</h1>
-      ))}
+      {users.map((person) =>
+        person == "Kabir" ? <h2>Hello Guru</h2> : <h1>Hello {person} Saheb</h1>
+      )}
       <button onClick={() => addHandler()}>Add To Something</button>
       <h1>{isLogged ? `User is Logged In` : `User is not Logged In`}</h1>
       <button onClick={() => addLogged()}>Check if</button> <br /> <br />

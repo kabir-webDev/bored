@@ -1,5 +1,5 @@
 export const initialState = {
-  users: ["Kabir", "Rasel", "Tutul"],
+  users: [],
   isLogged: false,
 };
 function reducer(state, action) {
