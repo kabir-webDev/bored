@@ -5,10 +5,15 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { StateProvider } from "./StateProvider";
 import reducer, { initialState } from "./reducer";
+import { BrowserRouter as Router } from "react-router-dom";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 ReactDOM.render(
   <StateProvider initialState={initialState} reducer={reducer}>
-    <App />
+    <Router>
+      <CssBaseline />
+      <App />
+    </Router>
   </StateProvider>,
   document.getElementById("root")
 );
